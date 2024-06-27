@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function AddStud() {
+export default function EditStud() {
     return (
         <div className='container mt-5'>
             <form className='mx-auto w-50 shadow p-5'>
                 <Link className=" btn btn-primary" to="/">Home</Link>
-                <h1 className='mt-5'>Fill-up Details</h1>
+                <h1 className='mt-5'>Edit  Details</h1>
                 <div className="mb-3">
                     <label for="exampleInputEmail1" className="form-label">Student Name</label>
                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -25,11 +25,9 @@ function AddStud() {
                 </div>
 
 
-                <button className='btn btn-primary'>Add Student</button>
+                <button className='btn btn-success'>Edit Student</button>
 
             </form>
         </div>
     )
 }
-
-export default AddStud

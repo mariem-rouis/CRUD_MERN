@@ -25,9 +25,9 @@ export default function Allstud() {
                         <td>test</td>
                         <td>12565885</td>
                         <td>test</td>
-                        <td><button className='btn btn-primary me-3'>  View</button>
-                            <button className='btn btn-danger me-3'>Delete</button>
-                            <button className='btn btn-warning me-3'>   Edit</button></td>
+                        <td><Link className='btn btn-primary me-3' to="/viewstud"> View</Link>
+                            <Link className='btn btn-danger me-3'>Delete</Link>
+                            <Link className='btn btn-warning me-3' to="/editstud/:id">  Edit</Link></td>
 
                     </tr>
 
