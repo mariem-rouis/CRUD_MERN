@@ -3,6 +3,9 @@ const express = require('express');
 const cors = require('cors');
 const dotenv = require("dotenv")
 const app = express();
+
+//add Schema
+const students = require("./models/studSchema")
 dotenv.config();
 
 
